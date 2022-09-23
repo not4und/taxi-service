@@ -1,10 +1,7 @@
 # taxi-service
-___
 ## Project description
-___
 A simple web-application that supports authentication, registration and other CRUD operations.
 ## Features
-___
 * Registration
 * Login
 * Logout
@@ -17,7 +14,6 @@ ___
 * Create new Manufacturer
 * Add Driver to Car
 ## Tech stack
-___
 * JDBC
 * Servlet
 * JSP
