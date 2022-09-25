@@ -1,6 +1,6 @@
 # taxi-service
 ## Project description
-A simple web-application that supports authentication, registration and other CRUD operations.
+A simple web-application for taxi service that supports authentication, registration and other CRUD operations.
 ## Project structure
 * Data access layer - DAO
 * Application layer - service
