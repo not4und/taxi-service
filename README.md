@@ -1,6 +1,10 @@
 # taxi-service
 ## Project description
 A simple web-application that supports authentication, registration and other CRUD operations.
+## Project structure
+* Data access layer - DAO
+* Application layer - service
+* Presentation layer - controller
 ## Features
 * Registration
 * Login
@@ -21,3 +25,14 @@ A simple web-application that supports authentication, registration and other CR
 * HTML, CSS
 * Apache Tomcat
 * MySQL
+## How to start the app
+1. Install Apache Tomcat 9.0.65, MySQL, MySQL Workbench.
+2. Initialize the databases from resources/init_db.sql in MySQL Workbench.
+3. Change connection info in taxi.util.ConnectionUtil:
+    ```java
+    private static final String URL = "YOUR DATABASE URL";
+    private static final String USERNAME = "YOUR USERNAME";
+    private static final String PASSWORD = "YOUR PASSWORD";
+    private static final String JDBC_DRIVER = "YOUR DRIVER";
+    ```
+4. Run the app.
